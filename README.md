@@ -29,9 +29,22 @@ Redux는 이것을 아무것도 변경되지 않았다고 생각하고 이전 �
 >* 이러한 정책을 적용하면 객체의 각 속성의 비교 없이 !== 를 사용해 두 객체의 메모리 위치값만을 비교해 객체의 상태가 변경되었는지를 비교 할 수 있다.<br/>
 
 
+#### Action
+
+
+
+#### Store 만들기
+* Store는 현재상태를 내장하고 있고, subscribe 중인 함수들이 상태가 업데이트 될 때마다 다시 실행되게 해준다.<br/>
+Store를 만들때는 redux에서 createStore를 불러온 다음,<br/>
+해당함수의 파라메터값으로 Reducer를 넣어주면 된다.<br/>
+<br/>
+index.js에 redux로부터 createStore를 import 해주고, reducers 디렉토리를 import
 
 
 
 
 
+
+
+ 
  
